@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+}
+
+h2{
+    font:30px "Segoe UI Emoji";
+    text-align: center;
+    padding: 10px 20px;
+    color: orangered;
+}
+
+#se7a-chat {
+    max-width: 600px;
+    margin: 30px auto;
+    border-radius: 2px;
+    background: lightgrey ;
+}
+
+#chat-window{
+    height: 420px;
+    overflow: auto;
+}
+
+#output p{
+    padding: 14px 0px;
+    margin: 0 20px;
+    border-bottom: 1px solid white;
+    color: #555;
+}
+
+#feedback p{
+    color: #aaa;
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+#output strong{
+    color: royalblue;
+    font-size: 20px;
+}
+
+label{
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+}
+
+input{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: #eee;
+    border: 0;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    font-family: Nunito;
+    font-size: 16px;
+}
+
+button{
+    background: orangered;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 0 0 2px 2px;
+}
